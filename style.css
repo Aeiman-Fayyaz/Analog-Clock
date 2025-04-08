@@ -1,0 +1,17 @@
+.clock{
+    --clock-size : 360px;
+    width: var(--clock-size);
+    height: var(--clock-size);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+}
+.spike{
+    z-index: 5;
+    position: absolute;
+    width: 8px;
+    height: 1px;
+    background-color: aliceblue;
+    line-height: 20px;
+}
